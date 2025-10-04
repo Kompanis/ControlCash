@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.mypy_cache/
+.coverage*
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Venv
+.venv/
+
+# Бэкенд
+backend/.env
+backend/.env.local
+backend/*.db
+backend/*.sqlite
+
+# Docker
+*.log
